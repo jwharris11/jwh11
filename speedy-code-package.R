@@ -1,6 +1,5 @@
 #### Set up ####
 remove(list = ls())
-setwd("~/Desktop/Resources/Custom-R/")
 #### speedy_names ####
 speedy_names <- function(varnames, df_name = "df", save_to_file = F, path) {
   line1 <- paste(df_name," <- ", df_name, " %>%", sep = "")
